@@ -1,0 +1,39 @@
+.foodItem{
+    width:300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px ;
+    overflow: hidden;
+    font-family: polysans, sans-serif;
+}
+.item_img{
+    max-width: 100%;
+    height: auto;
+}
+.itemContent{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.itemName{
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(255, 98, 0);
+}
+.itemButton{
+    background-color: rgb(41, 106, 43);
+    border: none;
+    color: #fffdfd;
+    padding : 10px ;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+.ButtonContainer{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: center;
+}

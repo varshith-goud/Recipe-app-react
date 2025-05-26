@@ -1,0 +1,8 @@
+/* Container.module.css */
+.ParentContainer {
+  display: flex;
+   /* align content to the left */
+ 
+  padding: 20px;
+  min-height: 100vh; /* optional, gives full-height background */
+}
